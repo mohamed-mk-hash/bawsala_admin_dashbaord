@@ -1177,7 +1177,6 @@ const ArrowList: React.FC<ArrowListProps> = ({
   lines,
   language,
   highlight = false,
-  compact = false,
   ordered = false,
 }) => {
   const isArabic = language === "ar";
